@@ -1,0 +1,763 @@
+    1  clear
+    2  ll
+    3  ls -a
+    4  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions~
+    5  ll
+    6  ll -a
+    7  nano .zshrc
+    8  exit
+    9  ping 
+   10  ll
+   11  la
+   12  cd .oh-my-zsh
+   13  ls
+   14  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   15  cd
+   16  nano .zshrc
+   17  exit
+   18  cd .oh-my-zsh
+   19  git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+   20  exit
+   21  l
+   22  clear
+   23  nano .zshrc
+   24  clear
+   25  ssmtp
+   26  clear
+   27  Desktop
+   28  clear
+   29  cd
+   30  sud apt install ssmtp
+   31  sudo apt install ssmtp
+   32  nano /etc/ssmtp/ssmtp.conf
+   33  sudo nano /etc/ssmtp/ssmtp.conf
+   34  Desktop
+   35  touch hi.txt
+   36  echo "hi all" >hi.txt
+   37  sendmail erikatmostafa@gmail.com < hi.txt
+   38  sudo apt-get update
+   39  sudo nano /etc/ssmtp/ssmtp.conf
+   40  echo "Testing...1...2...3" | ssmtp erikatmostafa@gmail.com
+   41  sudo nano /etc/ssmtp/ssmtp.conf
+   42  echo "Testing...1...2...3" | ssmtp erikatmostafa@gmail.com
+   43  sudo nano /etc/ssmtp/ssmtp.conf
+   44  echo "Testing...1...2...3" | ssmtp erikatmostafa@gmail.com
+   45  clear
+   46  sudo apt-get install sendmail libio-socket-ssl-perl libnet-ssleay-perl
+   47  sendEmail -f erikatmostafa@gmail.com -t erikatmostafa@gmail.com -u test -m "this is just test" -s smtp.googlemail.com:587 -xu erikatmostafa@gmail.com -xp vbs123456789 -o tls=yes
+   48  clear
+   49  sendemail -f erikatmostafa@gmail.com -t erikatmostafa@gmail.com -u test -m "this is just test" -s smtp.googlemail.com:587 -xu erikatmostafa@gmail.com -xp vbs123456789 -o tls=yes
+   50  sendmail -f erikatmostafa@gmail.com -t erikatmostafa@gmail.com -u test -m "this is just test" -s smtp.googlemail.com:587 -xu erikatmostafa@gmail.com -xp vbs123456789 -o tls=yes
+   51  gksu gedit /etc/ssmtp/ssmtp.conf
+   52  gedit /etc/ssmtp/ssmtp.conf
+   53  sudo gedit /etc/ssmtp/ssmtp.conf
+   54  ssmttp
+   55  ssmtp
+   56  sudo apt install mailutils -y
+   57  mail
+   58  mail –s "Test Email" erikatmostafa@gmail.com
+   59  mail  erikatmostafa@gmail.com
+   60  ^[[200~mail  erika.ubuntu@protonmail.com          
+   61  ~mail  erika.ubuntu@protonmail.com          \n
+   62  mail  erika.ubuntu@protonmail.com          \n
+   63  $ sudo apt install mutt
+   64  sudo apt install mutt
+   65  mail  erikat.ubuntu@protonmail.com          
+   66  $ mutt -s "Greetings" erikat.ubuntu@protonmail.com  < /dev/null 
+   67  mutt -s "Greetings" erikat.ubuntu@protonmail.com  < /dev/null 
+   68  $ mutt -s "Greetings" erikatmostafa@gmail.com  < /dev/null 
+   69  mutt -s "Greetings" erikatmostafa@gmail.com  < /dev/null 
+   70  sudo apt install mpack 
+   71  mpack -s "Subject here" erikatmostafa@gmail.com
+   72  mpack -s "Subject here" erikatmostafa@gmail.com -m 20
+   73  echo "My message" | mail -s "subject" erikat.ubuntu@protonmail.com 
+   74  echo "My message" | mail -v -s "subject" erikat.ubuntu@protonmail.com 
+   75  echo "This is the body" | mail -s "Subject" -aFrom:rasheed\<erikatmostafa@gmail.com\> erikat.ubuntu@protonmail.com 
+   76  gedit /etc/ssmtp/ssmtp.conf
+   77  sudo gedit /etc/ssmtp/ssmtp.conf
+   78  sudo nano /etc/ssmtp/ssmtp.conf
+   79  Desktop
+   80  l
+   81  cat test.txt
+   82  echo Subject: Sending email using sendmail\nTesting email body > hi.txt
+   83  echo "Subject: Sending email using sendmail\nTesting email body" >hi.txt
+   84  cat hi.txt
+   85  clear
+   86  sendmail erikatmostafa@gmail.com  < hi.txt
+   87  Desktop
+   88  sendmail erikatmostafa@gmail.com  < hi.txt
+   89  sudo nano /etc/ssmtp/ssmtp.conf
+   90  sendmail erikatmostafa@gmail.com  < hi.txt
+   91  $ sendmail erikat.ubuntu@protonmail.com   < hi.txt
+   92  sendmail erikat.ubuntu@protonmail.com   < hi.txt
+   93  ls /etc/ssmtp
+   94  sudo ls /etc/ssmtp
+   95  sudo nano /etc/ssmtp/revaliases
+   96  sendmail erikat.ubuntu@protonmail.com   < hi.txt
+   97  sudo nano /etc/ssmtp/ssmtp.conf
+   98  sendmail erikat.ubuntu@protonmail.com   < hi.txt
+   99  sudo nano /etc/ssmtp/revaliases
+  100  sendmail erikat.ubuntu@protonmail.com   < hi.txt
+  101  mutt -s "Greetings" erikatmostafa@gmail.com  < /dev/null 
+  102  du -sh | mail -s "disk usage report" erikat.ubuntu@protonmail.com
+  103  Desktop
+  104  nano h.sh
+  105  chmod +x h
+  106  chmod +x h.sh
+  107  ./h.sh
+  108  clear
+  109  sendmail erikat.ubuntu@protonmail.com   < hi.txt
+  110  clear
+  111  sudo nano /etc/ssmtp/ssmtp.conf
+  112  history
+  113  Desktop
+  114  history > hist.txt
+  115  mutt -s "Greetings" erikatmostafa@gmail.com < bod.txt
+  116  sendmail erikat.ubuntu@protonmail.com   < hi.txt
+  117  sudo nano /etc/ssmtp/ssmtp.conf
+  118  sudo nano /etc/ssmtp/revaliases
+  119  mutt -s "Greetings" erikatmostafa@gmail.com < bod.txt
+  120  Desktop
+  121  mutt -s "Greetings" erikatmostafa@gmail.com < bod.txt
+  122  sudo nano /etc/ssmtp/revaliases
+  123  sudo nano /etc/ssmtp/ssmtp.conf
+  124  ./bash.sh
+  125  chmod +x bash.sh
+  126  ./bash.sh
+  127  Desktop
+  128  sudo sendmail -s "hi" erikatmostafa@gmail.com
+  129  Desktop
+  130  mail  erikat.ubuntu@protonmail.com          
+  131  mail  erikatmostafa@gmail.com 
+  132  Desktop
+  133  cd
+  134  Desktop
+  135  clear
+  136  ./bash.sh
+  137  echo line=`cat value-test.txt`
+  138  ./bash.sh
+  139  systemctl| grep ssmtp
+  140  systemctl| grep mutt
+  141  Desktop
+  142  ./bash.sh
+  143  Desktop
+  144  ./bash.sh
+  145  Desktop
+  146  ll
+  147  ./bash.sh
+  148  clear
+  149  tcpdump
+  150  ifconfig
+  151  Desktop
+  152  ./bash.sh
+  153  clear
+  154  ll
+  155  chmod 77 disk-status.sh
+  156  clear
+  157  ./disk-status.sh
+  158  ll
+  159  chmod 777 disk-status.sh
+  160  ./disk-status.sh
+  161  df -h | grep /dev/vda1 | awk '{print $5}'
+  162  clear
+  163  df -h
+  164  ./disk-status.sh
+  165  ./bash.sh
+  166  ./disk-status.sh
+  167  cut --help
+  168  ./disk-status.sh
+  169  clear
+  170  cp disk-status.sh /etc/cron.daily
+  171  sudo cp disk-status.sh /etc/cron.daily
+  172  chmod +x /etc/cron.daily/disk-status.sh
+  173  sudo chmod +x /etc/cron.daily/disk-status.sh
+  174  crontab -e
+  175  watch
+  176  watch ./disk-status.sh
+  177  Desktop
+  178  ./disk-status.sh
+  179  watch ./disk-status.sh
+  180  watch /etc/cron.daily/disk-status.sh
+  181  Desktop
+  182  ./disk.sh
+  183  clear
+  184  chmod 777 disk.sh
+  185  ./disk.sh
+  186  clear
+  187  sudo adduser oracle
+  188  usermod -aG sudo oracle
+  189  sudo usermod -aG sudo oracle
+  190  su oracle
+  191  clear
+  192  cd /home
+  193  mkdir jail
+  194  sudo -su
+  195  su -
+  196  sudo su
+  197  clear
+  198  sudo bash
+  199  sudo yum install -y yum-utils lvm2
+  200  sudo apt install yum
+  201  clear
+  202  rpm -qa |grep lvm2
+  203  dpkg
+  204  dpkg --help
+  205  apt --help
+  206  sudo apt search lvm2
+  207  clear
+  208  sudp apt-get update
+  209  sudo apt-get update
+  210  sudo apt-get install \\napt-transport-https \\nca-certificates \\ncurl \\ngnupg \\nlsb-release
+  211  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  212  sudp apt-get update
+  213  sudo apt-get update
+  214  sudo apt-get install docker-ce-cli containerd.io
+  215  sudo apt-get install docker-ce docker-ce-cli containerd.io
+  216  apt-cache madison docker-ce
+  217  sudo apt-get remove docker docker-engine docker.io containerd runc
+  218  clear
+  219  sudo groupadd docker
+  220  sudo useradd dock-user
+  221  passwd dock-user
+  222  sudo passwd dock-user
+  223  usermod -aG docker dock-user
+  224  sudo usermod -aG docker dock-user
+  225  su dock-user
+  226  exit
+  227  su dock-user
+  228  sudo apt-get remove docker docker-engine docker.io containerd runc
+  229  sudo rm -rf /var/lib/docker
+  230  sudo rm -rf /var/lib/containerd
+  231  clear
+  232  sudo apt-get install \\n    apt-transport-https \\n    ca-certificates \\n    curl \\n    gnupg \\n    lsb-release
+  233  sudo apt autoremove
+  234  sudo apt-get install \\n    apt-transport-https \\n    ca-certificates \\n    curl \\n    gnupg \\n    lsb-release
+  235  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  236  sudo apt-get update
+  237  sudo apt-get install docker-ce docker-ce-cli containerd.io
+  238  docker
+  239  echo \\n  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \\n  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null\n
+  240  sudo apt-get update
+  241  sudo apt-get install docker-ce docker-ce-cli containerd.io
+  242  sudo docker run hello-world\n
+  243  groups
+  244  getent groups
+  245  sudo groupdel docker
+  246  sudo usermod -aG docker linux
+  247  clear
+  248  sudo apt-get remove docker docker-engine docker.io containerd runc
+  249  sudo apt-get remove docker 
+  250  sudo apt-get remove docker-engine 
+  251  sudo apt-get remove docker.io containerd runc
+  252  sudo apt-get remove containerd runc
+  253  sudo apt-get purge docker-ce docker-ce-cli containerd.io
+  254  sudo rm -rf /var/lib/docker
+  255  sudo rm -rf /var/lib/containerd
+  256  clear
+  257  sudo apt-get update
+  258  sudo apt-get install \\n    apt-transport-https \\n    ca-certificates \\n    curl \\n    gnupg \\n    lsb-release
+  259  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  260  echo \\n  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \\n  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  261  sudo apt-get update
+  262  sudo apt-get install docker-ce docker-ce-cli containerd.io
+  263  docker
+  264  clear
+  265  su linux
+  266  su oracle
+  267  sudo usermod -aG docker oracle
+  268  id oracle
+  269  clear
+  270  sudo curl -L "https://github.com/docker/compose/releases/download/1.28.6/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  271  sudo chmod +x /usr/local/bin/docker-compose
+  272  docker compose --version
+  273  clear
+  274  passwd
+  275  lear
+  276  clear
+  277  ll
+  278  ls -a
+  279  sudo nano .zshrc
+  280  docker compose --version
+  281  clear
+  282  sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+  283  clear
+  284  docker
+  285  docker compose --version
+  286  docker-compose --version
+  287  ip a
+  288  docker swarm init --advertise-addr=10.0.2.15
+  289  sudo docker swarm init --advertise-addr=10.0.2.15
+  290  docker node ls
+  291  sudo docker node ls
+  292  docker service
+  293  sudo docker swarm init --advertise-addr=10.0.2.15
+  294  docker swarm leave
+  295  sudo docker swarm leave
+  296  sudo docker swarm -f leave
+  297  sudo docker swarm leave -f
+  298  clear
+  299  sudo docker swarm init --advertise-addr=10.0.2.15
+  300  docker node ls
+  301  sudo docker node ls
+  302  sudo docker swarm leave -f
+  303  clear
+  304  Desktop
+  305  ll
+  306  ./bash.sh
+  307  cd /tmp/
+  308  ll
+  309  git
+  310  git --virsion
+  311  git --version
+  312  wihch nano
+  313  which nano
+  314  clear
+  315  git config --global user.name "eriqat"
+  316  git config --global user.email "erikat.cctf@gmail.com"
+  317  wihch nano
+  318  which nano
+  319  git config --system core.editor "/usr/bin/nano"
+  320  sudo git config --system core.editor "/usr/bin/nano"
+  321  cat /etc/gitconfig
+  322  cd
+  323  mkdir repo
+  324  cd repo
+  325  clear
+  326  git init .
+  327  la
+  328  echo "this is readme file" > README.md
+  329  l
+  330  echo "# > bash.sh
+  331  echo "hi its a script" > bash.sh
+  332  ll
+  333  clear
+  334  git status
+  335  git add .
+  336  ll
+  337  git status
+  338  git commit -m "first commit"
+  339  nano README.md
+  340  git status
+  341  git commit -a
+  342  git add .
+  343  git status
+  344  git add .
+  345  ll
+  346  git status
+  347  git commit -m "second commit"
+  348  git status
+  349  touch hi.txt
+  350  touch hiasdc.txt
+  351  ll
+  352  rm hi.txt
+  353  touch hi.txt
+  354  git add .
+  355  git commit -m "3th commit"
+  356  clear
+  357  ll
+  358  rm hi
+  359  rm hi.txt
+  360  ll
+  361  git status
+  362  git rm hi.txt
+  363  git status
+  364  git commit -m "removed file hi"
+  365  clear
+  366  ll
+  367  git status
+  368  cd
+  369  cd repo
+  370  clear
+  371  git log
+  372  git log | less
+  373  clear
+  374  git log --oneline
+  375  git log -p
+  376  git log --graph
+  377  clear
+  378  ll
+  379  touch hi.txt
+  380  ll
+  381  git commit -m "removed"
+  382  git add .
+  383  ll
+  384  git status
+  385  git commit -m "removed"
+  386  ll
+  387  git rm hi.txt
+  388  ll
+  389  git status
+  390  git commit -m "removed2"
+  391  ll
+  392  git logs
+  393  git log
+  394  clear
+  395  cd repo
+  396  cd
+  397  mkdir testdir
+  398  cd testdir
+  399  git clone ~/repo .
+  400  ll
+  401  git push origin master
+  402  cd 
+  403  cd repo
+  404  git push origin master
+  405  git push origin Induction
+  406  git config --global user.email "erikat.cctf@gmail.com"
+  407  git config --global user.name "eriqat"
+  408  git push origin Induction
+  409  git push origin master
+  410  clear
+  411  git push origin master
+  412  cd 
+  413  mkdir github
+  414  cd github
+  415  git clone https://github.com/eriqat/master.git
+  416  ll
+  417  clear
+  418  cd master
+  419  ll
+  420  touch hi.txt
+  421  clear
+  422  git add .
+  423  git commit -m "new"
+  424  git config --global user.name "eriqat"
+  425  git config --global user.email "erikat.cctf@gmail.com"
+  426  git push origin master
+  427  git clone https://github.com/eriqat/test.git
+  428  ll
+  429  clear
+  430  ll
+  431  git add .
+  432  git rm --cached test
+  433  git status
+  434  git add .
+  435  git commit -m "new"
+  436  ls
+  437  clear
+  438  git push origin master
+  439  git config --global user.name "eriqat"
+  440  git config --global user.email "erikat.cctf@gmail.com"
+  441  clear
+  442  git push origen master
+  443  git push origin master
+  444  clear
+  445  cd
+  446  mkdir github2
+  447  cd github2
+  448  l
+  449  git clone https://github.com/eriqat/test.git
+  450  git config --global user.name "eriqat"
+  451  git config --global user.email "erikat.cctf@gmail.com"
+  452  ll
+  453  cd test
+  454  ll
+  455  touch hi.txt
+  456  git add .
+  457  git commit -m "new"
+  458  git push origin master
+  459  cd ..
+  460  git push origin master
+  461  git init .
+  462  git add .
+  463  clear
+  464  git push origin master
+  465  clear
+  466  cd
+  467  ll
+  468  rm -rf github github2
+  469  ll
+  470  clar
+  471  clear
+  472  git clone https://github.com/eriqat/test.git
+  473  mkdir github
+  474  cd github
+  475  git clone https://github.com/eriqat/test.git
+  476  ll
+  477  cd test
+  478  touch hi.txt
+  479  git add .
+  480  git commit -m "new"
+  481  ll
+  482  clear
+  483  git status
+  484  git push origin mmain
+  485  git push origin main
+  486  clear
+  487  ll
+  488  nano hi.txt
+  489  git add .
+  490  git commit -m "another commit"
+  491  git push origin main
+  492  git status
+  493  clear
+  494  git config --system core.excludesfile
+  495  cd /etc
+  496  ls |grep git
+  497  git config --system core.excludesfile '/etc/gitignore'
+  498  sudo git config --system core.excludesfile '/etc/gitignore'
+  499  sudo nano /etc/hitignore
+  500  sudo nano /etc/gitignore
+  501  ll
+  502  cp README.md readme.log
+  503  ll
+  504  eom
+  505  clear
+  506  ll
+  507  l
+  508  ll
+  509  clear
+  510  nano .gitignore
+  511  ll
+  512  git status
+  513  git add .
+  514  git commit -m "ignore commit"
+  515  ll
+  516  mkdir hi
+  517  ll
+  518  clear
+  519  touch hi/jjj.txt
+  520  ll
+  521  ls hi
+  522  cd 
+  523  mkdir branching
+  524  cd branching
+  525  git clone https://github.com/eriqat/branching.git
+  526  ll
+  527  cd branching
+  528  ll
+  529  for i in `seq 1 5`\ndo\ntouch test_$RANDOM.txt\ndone
+  530  ll
+  531  clear
+  532  git add .
+  533  git commit -m "new branch"
+  534  ll
+  535  git branch
+  536  git branch dev
+  537  git branch
+  538  git checkout dev
+  539  git branch
+  540  git checkout main
+  541  clear
+  542  git branch
+  543  clear
+  544  git push origin dev
+  545  status
+  546  git checkout main
+  547  ll
+  548  clear
+  549  git checkout dev
+  550  mkdir jj
+  551  mkdir jjasdcasdc
+  552  mkdir jjasdcasdcadscasd
+  553  l
+  554  git status
+  555  git checkout main
+  556  ll
+  557  clear
+  558  cd
+  559  l
+  560  rm -rf branching
+  561  mkdir branching
+  562  cd branching
+  563  git clone https://github.com/eriqat/branching.git .
+  564  ll
+  565  clear
+  566  for i in `seq 1 5`\ndo\ntouch test_$RANDOM.txt\ndone
+  567  git status
+  568  git add .
+  569  git commit -m "new add to branch"
+  570  ll
+  571  clear
+  572  git branch
+  573  git branch dev
+  574  git branch 
+  575  clear
+  576  git checkout dev
+  577  mkdir testdir
+  578  ll
+  579  git checkout main
+  580  ll
+  581  clear
+  582  git branch  qa
+  583  git branch
+  584  git checkout qa
+  585  ll
+  586  clear
+  587  git checkout main
+  588  clear
+  589  git push origin main
+  590  git checkout dev
+  591  ll
+  592  git checkout-b dev
+  593  git checkout-b qa
+  594  git checkout -b qa
+  595  clear
+  596  ll
+  597  echo "hi there" >> README.md
+  598  git add .
+  599  git commit -m "new add to branch"
+  600  git checkout  main
+  601  ls
+  602  car README.md
+  603  cat README.md
+  604  clear
+  605  git push origin dev
+  606  git checkout qa
+  607  clear
+  608  echo "hi there" > qainly.txt
+  609  git add .
+  610  git commit -m "new add to branch"
+  611  clear
+  612  git checkout main
+  613  ll
+  614  clar
+  615  clear
+  616  git push origin qa
+  617  git checkout qa
+  618  git push origin qa
+  619  clear
+  620  git config --global user.email "erikat.cctf@gmail.com"
+  621  git config --global user.name "eriqat"
+  622  git push origin qa
+  623  git merge dev
+  624  ls
+  625  git checkout main
+  626  git merge qa
+  627  git push origin master
+  628  git push origin main
+  629  cd
+  630  clear
+  631  sudo apt update
+  632  sudo apt install default-jdk
+  633  sudo apt install maven
+  634  mvn -v
+  635  java -version
+  636  clear
+  637  mvn
+  638  mvn -v
+  639  mvn -h
+  640  mkdir maven-project
+  641  cd maven-project/
+  642  git clone https://github.com/eriqat/maven-course.git
+  643  ll
+  644  rm -rf maven-course
+  645  ll
+  646  git clone https://github.com/eriqat/maven-course.git .
+  647  clear
+  648  cd
+  649  ll
+  650  rm -rf maven-project
+  651  mkdir maven-project
+  652  cd maven-project
+  653  git clone https://github.com/eriqat/maven-course.git
+  654  cd maven-course
+  655  clear
+  656  nano pom.xml
+  657  ll
+  658  la
+  659  git add .
+  660  git commit -m "adding pom file to project"
+  661  ll
+  662  clear
+  663  mvn compile
+  664  clear
+  665  mkdir -p src/main/java
+  666  mkdir -p src/main/resources
+  667  mkdir -p src/test/java
+  668  mkdir -p src/test/resources
+  669  ll
+  670  ls src
+  671  touch src/main/java/.gitkeep
+  672  touch src/main/resources/.gitkeep
+  673  touch src/test/resources/.gitkeep
+  674  touch src/test/java/.gitkeep
+  675  ll
+  676  git status
+  677  git add .
+  678  git commit -m "adding dummy files"
+  679  clear
+  680  cd src/main/java
+  681  mkdir -p clinic/programming/training
+  682  ll
+  683  clear
+  684  cd clinic/programming/training
+  685  ll
+  686  nano Application.java
+  687  ll
+  688  cd ../../../../..
+  689  ls
+  690  cd ..
+  691  ll
+  692  clear
+  693  mvn package
+  694  mvn -e
+  695  mvn -x
+  696  clear
+  697  cd src/main/java/clinic/programming/training
+  698  cd
+  699  cd src/main/java/clinic/programming/training
+  700  ls
+  701  cd maven-project
+  702  cd src/main/java/clinic/programming/training
+  703  cd maven-course
+  704  cd src/main/java/clinic/programming/training
+  705  clear
+  706  ls
+  707  nano Application.java
+  708  clear
+  709  git add .
+  710  git commit -m "adding java file"
+  711  clear
+  712  cd ../../../../../..
+  713  clear
+  714  ll
+  715  ls target
+  716  clear
+  717  mvn package
+  718  clear
+  719  cd ../../../../../..
+  720  ll
+  721  cd 
+  722  cd maven-project
+  723  cd maven-course
+  724  ls
+  725  nano pom.xml
+  726  clear
+  727  mvn package
+  728  ll
+  729  git status
+  730  git add .
+  731  git commit -m "modifying pom  file"
+  732  clear
+  733  ll
+  734  pwd
+  735  ls target
+  736  cd target
+  737  ll
+  738  ls generated-sources
+  739  java -cp example-1.0.jar:clinic.programming.training.Application
+  740  java -cp example-1.0.jar clinic.programming.training.Application
+  741  clear
+  742  ll
+  743  cd github
+  744  ls
+  745  cd test
+  746  ls
+  747  cd hi
+  748  ls
+  749  cd
+  750  cldae
+  751  clear
+  752  ls
+  753  cd repo
+  754  ls
+  755  git logs
+  756  git log
+  757  cd 
+  758  cd branching
+  759  ls
+  760  git log
+  761  git log --graph
+  762  clear 
+  763  history
